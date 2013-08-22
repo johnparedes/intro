@@ -1,4 +1,5 @@
 Intro::Application.routes.draw do
+  get "math/lets_math"
   get "pages/archives"
   get "hello/from_view"
   get "hello/from_controller"
